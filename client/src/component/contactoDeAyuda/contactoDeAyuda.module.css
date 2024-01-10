@@ -1,0 +1,34 @@
+.checks {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	align-content: space-evenly;
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+.checks .check1 {
+	margin-right: 15em;
+}
+
+
+
+.checks .check2 {
+	margin-right: 15em;
+}
+
+.checks .check3 {
+	margin-right: 15em;
+}
+
+.checks .check4 {
+	
+}
+
+label {
+	font-size: 0.5px;
+	font-weight: 500;
+	justify-content: left;
+	align-items: left;
+	color: black;
+}
