@@ -4,6 +4,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import './App.module.css'
 import ContactoDeAyuda from './component/contactoDeAyuda/contactoDeAyuda.tsx'
+import RespuestaDeAyuda from './component/respuestaDeAyuda/respuestaDeAyuda.tsx'
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <>
         <Routes>
           <Route path="/" element={<ContactoDeAyuda/>} />
-          {/*<Route path="/respuestaConsulta" element:{<respuestaConsulta/>} />*/}
+          <Route path="/respuestaConsulta" element={<RespuestaDeAyuda/>} />
         </Routes>
         <ToastContainer/>
       </>
