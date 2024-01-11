@@ -34,10 +34,7 @@ export default function ContactoDeAyuda() {
     event.preventDefault();
 
     try {
-      // Aquí puedes realizar la llamada al backend para enviar los datos
-      // Supongamos que utilizas axios para hacer la llamada al servidor
-      // Reemplaza la siguiente línea con tu lógica de llamada al backend
-       const responseData = await axios.post('/api/enviarConsulta', formData);
+       const responseData = await axios.post('http://localhost:5000/formContact', formData);
 
       // Lógica de respuesta simulada para el ejemplo
       const response = { status: 'success' };
